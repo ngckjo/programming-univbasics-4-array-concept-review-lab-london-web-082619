@@ -1,9 +1,9 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
   counter = 0
-  exact_match
+  exact_match = 0
   while counter < array.length do
-  
+    exact_match
   end
 end
 
