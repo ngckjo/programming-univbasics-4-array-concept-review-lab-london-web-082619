@@ -23,7 +23,7 @@ end
 def find_min_value(array)
   # Add your solution here
   counter = 0
-  min_value = nil
+  min_value = 10**10000
   while counter < array.length do
     min_value = array [counter] if array[counter] < min_value
     counter += 1
