@@ -6,7 +6,7 @@ def find_element_index(array, value_to_find)
     exact_match = counter if array[counter] == value_to_find
     counter += 1
   end
-  exact_match
+  puts exact_match
 end
 
 def find_max_value(array)
